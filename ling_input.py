@@ -32,4 +32,5 @@ for key in random.sample(slovar.keys(), len(slovar)):
         break
     else:
         errors += 1
+        print("Правильное слово было: ", slovar[key])
         print("Количество ошибок", errors)
