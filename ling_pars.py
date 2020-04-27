@@ -49,6 +49,6 @@ for keys in random.sample(dictionary.keys(), len(dictionary)):
         break
     else:
         errors += 1
-        print("Правильное слово было ,", dictionary[keys])
+        print("Правильное слово было: ", dictionary[keys])
         print("Количество ошибок", errors)
         
